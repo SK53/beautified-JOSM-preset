@@ -5495,6 +5495,7 @@
             <key key="amenity" value="post_box"/>
             <text key="operator" text="Operator"/>
             <text key="ref" text="Reference number"/>
+	    <combo key="post_box:type" text="Post box type" values="pillar,lamp,wall,meter" display_values="Pillar,Lamp,Wall,Meter"/>
             <combo key="collection_times" text="Collection times" delimiter="|" values="Mo-Sa 09:00|Mo-Fr 17:30; Sa 12:00|Mo-Fr 15:00,19:00; Sa 15:10; Su 10:30" values_no_i18n="true" match="none" editable="true"/>
             <check key="drive_through" text="Drive through" disable_off="true"/>
         </item> <!-- Post Box -->
